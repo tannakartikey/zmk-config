@@ -50,7 +50,7 @@
                 lower_layer {
 // ------------------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |                    |  6  | -/_ | =/+ |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |                    | LFT | DWN | UP  | RGT |     |  F12 |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |                    | LFT | DWN | UP  | RGT | [/} | ]/}  |
 // | SHFT | F1  | F2  | F3  | F4  | F5  |  boot  |  |        |  PGUP | HOME  | END  | PGDN  | F10 |  F11 |
 //                    | GUI |     | SPC |                    | ENT |     | ALT |
                         bindings = <
