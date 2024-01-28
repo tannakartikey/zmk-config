@@ -51,7 +51,7 @@
 // ------------------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |                    |  6  | -/_ | =/+ |  9  |  0  | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |                    | LFT | DWN | UP  | RGT | [/} | ]/}  |
-// | SHFT | F1  | F2  | F3  | F4  | F5  |  boot  |  |        |  PGUP | HOME  | END  | PGDN  | F10 |  F11 |
+// | SHFT | F1  | F2  | F3  | F4  | F5  |  boot  |  |        | PGUP| HOME| END | PGDN| F10 |  F11 |
 //                    | GUI |     | SPC |                    | ENT |     | ALT |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                           &kp N6   &kp MINUS   &kp EQUAL &kp N9    &kp N0  &kp BSPC
