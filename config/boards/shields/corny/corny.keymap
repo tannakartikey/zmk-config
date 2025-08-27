@@ -18,7 +18,7 @@
 	    combo_capslock {
 		timeout-ms = <50>;
 		key-positions = <16 19>;  // F key (position 16) + J key (position 19)
-		bindings = <&kp CAPS>;
+		bindings = <&kt CAPSLOCK>;
 	    };
 	    combo_caps_word {
 		timeout-ms = <50>;
