@@ -15,6 +15,11 @@
 		key-positions = <0 1>;
 		bindings = <&studio_unlock>;
 	    };
+	    combo_capslock {
+		timeout-ms = <50>;
+		key-positions = <15 20>;  // F key (position 15) + J key (position 20)
+		bindings = <&caps_word>;
+	    };
 	};
 
 	behaviors {
