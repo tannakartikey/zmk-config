@@ -17,17 +17,22 @@
 	    };
 	    combo_capslock {
 		timeout-ms = <50>;
-		key-positions = <16 19>;  // F key (position 16) + J key (position 19)
-		bindings = <&kt CAPSLOCK>;
+		key-positions = <16 19>;  // F key (position 16) + J key (position 19) - persistent caps
+		bindings = <&caps_word_persist>;
 	    };
 	    combo_caps_word {
 		timeout-ms = <50>;
-		key-positions = <15 20>;  // D key (position 15) + K key (position 20)
+		key-positions = <15 20>;  // D key (position 15) + K key (position 20) - normal caps_word
 		bindings = <&caps_word>;
 	    };
 	};
 
 	behaviors {
+	  caps_word_persist: caps_word_persist {
+	    compatible = "zmk,behavior-caps-word";
+	    #binding-cells = <0>;
+	    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE SPACE>;
+	  };
 	  rpi: require_prior_idle {
 	    compatible = "zmk,behavior-hold-tap";
 	    #binding-cells = <2>;
